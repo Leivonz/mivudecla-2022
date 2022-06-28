@@ -16,6 +16,7 @@
   height: 100%;
   background-color: #151719;
   left: -200px;
+  transition: all 250ms;
 }
 
 #sidebar.active {

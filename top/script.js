@@ -1,5 +1,5 @@
-const btnToggle = document.querySelector('.btn')
+const btnToggle = document.querySelector(".btn");
 
-btnToggle.addEventListener('click', function () {
-    console.log('clicked')
-})
+btnToggle.addEventListener("click", function () {
+  document.getElementById("sidebar").classList.toggle("active")
+});
